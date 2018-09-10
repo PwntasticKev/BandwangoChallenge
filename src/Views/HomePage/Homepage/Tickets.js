@@ -54,6 +54,7 @@ const CurrentTickets = styled.div`
 `
 
 const SubmitButton = styled.button`
+  transition: all 0.5s ease-in-out;
   background: ${props => props.background};
   color: ${props => props.color};
   font-weight: 100;
