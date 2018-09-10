@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:100,200,300,400,500,600,700,800,900");
+@font-face {
+  font-family: "Sans";
+  font-style: italic;
+  font-weight: 800;
+  src: url("./Fonts/EncodeSansCondensed-ExtraLight.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Sans";
+  font-weight: 400;
+  src: url("./Fonts/EncodeSansCondensed-Regular.ttf") format("ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Encode Sans Condensed", sans-serif;
+}
