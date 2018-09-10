@@ -7,20 +7,20 @@ const ContentContainer = styled.section`
 const Text = styled.div`
   font-weight: 600;
   font-size: 13px;
-  opacity: 0.8;
   margin-top: 16px;
+  opacity: 0.8;
 `
 
 const Content = styled.div`
+  opacity: 0.8;
   color: #838383;
   font-weight: 100;
-  opacity: 0.8;
   font-size: 15px;
 `
 
 const Line = styled.div`
-  border-bottom: 1px solid #838383;
   margin: 5px 0;
+  border-bottom: 1px solid #838383;
 `
 
 export default class Info extends Component {

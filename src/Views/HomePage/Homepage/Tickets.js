@@ -35,34 +35,34 @@ const CardButton = styled.button`
 const SubmitContainer = styled.section`
   display: flex;
   position: absolute;
+  justify-content: center;
   bottom: 0;
   left: 0;
   height: 74px;
   z-index: 2;
   width: 100%;
   background: white;
-  justify-content: center;
   text-align: center;
   padding: 10px 0;
 `
 
 const CurrentTickets = styled.div`
   color: white;
-  border-bottom: 1px solid white;
-  margin: 20px 0;
   opacity: 0.5;
+  margin: 20px 0;
+  border-bottom: 1px solid white;
 `
 
 const SubmitButton = styled.button`
+  width: 250px;
+  height: 50px;
+  padding: 15px;
+  font-weight: 100;
+  border-radius: 70px;
+  letter-spacing: 1.75px;
   transition: all 0.5s ease-in-out;
   background: ${props => props.background};
   color: ${props => props.color};
-  font-weight: 100;
-  border-radius: 70px;
-  padding: 15px;
-  width: 250px;
-  height: 50px;
-  letter-spacing: 1.75px;
 `
 
 const FakeCard = styled.section`

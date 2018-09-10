@@ -9,27 +9,27 @@ const Container = styled.section`
 
 const Button1 = styled.button`
   color: white;
-  background: #18245d;
   padding: 10px;
   width: 50%;
   border: none;
-  border-bottom: ${props => props.border};
-  color: ${props => props.color};
   outline: none;
   cursor: pointer;
+  background: #18245d;
+  border-bottom: ${props => props.border};
+  color: ${props => props.color};
   font-family: Encode Sans Condensed;
 `
 
 const Button2 = styled.button`
   color: white;
-  background: #18245d;
   padding: 10px;
   width: 50%;
   border: none;
-  border-bottom: ${props => props.border};
-  color: ${props => props.color};
   outline: none;
   cursor: pointer;
+  background: #18245d;
+  border-bottom: ${props => props.border};
+  color: ${props => props.color};
   font-family: Encode Sans Condensed;
 `
 
@@ -38,33 +38,33 @@ const ButtonContainer = styled.section`
 `
 
 const HeaderContainer = styled.section`
-  background: #18245d;
   color: white;
+  height: 208px;
+  background: #18245d;
   text-align: center;
   position: relative;
-  height: 208px;
 `
 const SubTitle = styled.div`
-  font-size: 12px;
-  padding-top: 47px;
-  font-weight: 100;
   opacity: 0.9;
+  font-size: 12px;
+  font-weight: 100;
+  padding-top: 47px;
   letter-spacing: 0.5px;
 `
 const Title = styled.div`
+  opacity: 0.9;
   font-size: 20px;
-  letter-spacing: 0.75px;
+  padding: 0 75px;
   font-weight: 100;
   margin-top: 10px;
-  padding: 0 75px;
-  opacity: 0.9;
+  letter-spacing: 0.75px;
 `
 
 const Error = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 50vh;
+  align-items: center;
+  justify-content: center;
 `
 
 export default class Page4 extends Component {
