@@ -46,7 +46,8 @@ const SubmitContainer = styled.section`
 const CurrentTickets = styled.div`
   color: white;
   border-bottom: 1px solid white;
-  margin: 10px 0;
+  margin: 20px 0;
+  opacity: 0.5;
 `
 
 const SubmitButton = styled.button`
