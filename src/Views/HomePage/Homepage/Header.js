@@ -69,8 +69,8 @@ const Error = styled.div`
 
 export default class Page4 extends Component {
   state = {
-    infoActive: false,
-    redeemActive: true
+    infoActive: true,
+    redeemActive: false
   }
 
   infoActive(bool) {
