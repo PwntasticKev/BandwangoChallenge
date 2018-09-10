@@ -15,6 +15,8 @@ const Card = styled.div`
   display: flex;
   position: relative;
   padding: 10px 0 0 10px;
+  letter-spacing: 0.75px;
+  border-radius: 6px;
 `
 
 const CardButton = styled.button`
@@ -24,7 +26,7 @@ const CardButton = styled.button`
   border-radius: 50px;
   position: absolute;
   right: 23px;
-  top: 5px;
+  top: 8px;
   border: 1.5px solid lightgray;
   outline: none;
 `
