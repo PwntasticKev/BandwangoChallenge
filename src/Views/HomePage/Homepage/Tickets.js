@@ -22,6 +22,7 @@ const Card = styled.div`
 const CardButton = styled.button`
   width: 50px;
   height: 50px;
+  transition: background 0.5s ease-in-out;
   background: ${props => props.background};
   border-radius: 50px;
   position: absolute;
@@ -64,7 +65,8 @@ const SubmitButton = styled.button`
 `
 
 const FakeCard = styled.section`
-  display: ${props => props.display};
+  transition: opacity 0.5s ease-in-out;
+  opacity: ${props => props.display};
 `
 
 export default class Tickets extends Component {
@@ -133,7 +135,7 @@ export default class Tickets extends Component {
         <div>{card}</div>
         <section>
           <CurrentTickets>Current Tickets added</CurrentTickets>
-          <FakeCard display={this.state.active ? "block" : "none"}>
+          <FakeCard display={this.state.active ? "1" : "0"}>
             {fakeCard}
           </FakeCard>
         </section>
