@@ -75,7 +75,9 @@ export default class Tickets extends Component {
   }
 
   alert() {
-    alert("Thank you for your purchase")
+    this.state.active
+      ? alert("Thank you for your purchase")
+      : alert("Please select your amount of tickets")
   }
 
   buttonHandler(bool) {
